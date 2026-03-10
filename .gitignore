@@ -173,3 +173,9 @@ cython_debug/
 # Logs
 baselines/*/logs/
 data/*.json
+
+# Local scratch analysis and generated outputs
+tmp/
+paper_analysis/
+plots/annotate_reasoning_depth.py
+plots/*.pdf

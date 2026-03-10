@@ -16,7 +16,7 @@ for RUN_NUMBER in 0 1 2; do
         for dataset in medqa medbullets medmcqa pubmedqa mmlu mmlu-pro medexqa medxpertqa-r medxpertqa-u; do
             mkdir -p $LOGS_DIR/run-${RUN_NUMBER}/$dataset 
             # for split in test_hard; do
-            for split in test_hard test; do
+            for split in test; do
                 echo "Running $model on $dataset $split"
                 model_filename=$(echo $model | tr '/' '_')
                 log_file=$LOGS_DIR/run-${RUN_NUMBER}/$dataset/${model_filename}_${dataset}_${split}.log
