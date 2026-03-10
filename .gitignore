@@ -176,6 +176,4 @@ data/*.json
 
 # Local scratch analysis and generated outputs
 tmp/
-paper_analysis/
-plots/reasoning_depth/
 plots/*.pdf
