@@ -1,4 +1,4 @@
-# MedAgents-Benchmark
+# MedAgentsBenchmark
 
 **MedAgentsBench: Benchmarking Thinking Models and Agent Frameworks for Complex Medical Reasoning**
 
